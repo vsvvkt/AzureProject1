@@ -2,7 +2,7 @@
 echo "docker version:-"
 docker --version
 echo "ansible version:-"
-ansible --version
+ansible --version | head -n 1
 echo "java version:-"
 java --version
 echo "python3 version:-"
