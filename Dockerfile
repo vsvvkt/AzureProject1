@@ -1,6 +1,6 @@
 FROM httpd
 RUN apt-get update -y
-RUN apt-get upgrade
+RUN apt-get upgrade -y
 RUN apt-get install git -y
 RUN apt-get install wget -y
 RUN apt-get install unzip -y
